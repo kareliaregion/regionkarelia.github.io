@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2vh;
+    font-family: Montserrat;
+}
+
+.main {
+    min-height: 82.5rem;
+    display: block;
+}
+
+header {
+    background-color: rgb(255, 234, 233);
+    min-height: 16.5rem;
+}
+
+.up_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_button {
+    height: 4rem;
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 2rem;
+}
+
+.home_button img {
+    height: 100%;
+}
+
+.logo {
+    width: 27rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12.5vw;
+    margin-top: 1rem;
+}
+
+.logo>div {
+    display: flex;
+    height: 100%;
+}
+
+.gerb {
+    width: 13%;
+    height: auto;
+}
+
+
+.fond {
+    width: 57%;
+    height: auto;
+}
+
+.petrsu {
+    width: 19%;
+    height: auto;
+}
+
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.down_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5vh;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-inline: 14vw;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.flag {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(225, 224, 240);
+}
+
+
+.emblem {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(236, 252, 237);
+}
+
+.petrozavodsk {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(255, 234, 233);
+}
+
+
+.flag div,
+.emblem div,
+.petrozavodsk div {
+    display: flex;
+}
+
+
+.flag_image1,
+.emblem_image1,
+.petrozavodsk_image1,
+.flag img,
+.emblem img,
+.petrozavodsk img {
+    height: 100%;
+}
+
+.flag,
+.emblem,
+.petrozavodsk {
+    justify-content: space-between;
+}
+
+.flag_main,
+.emblem_main,
+.petrozavodsk_main {
+    height: 16.5rem;
+    width: 48vw;
+    align-items: center;
+}
+
+.flag_information,
+.emblem_information,
+.petrozavodsk_information {
+    flex-flow: column;
+    width: 48vw;
+}
+
+.flag_head,
+.emblem_head,
+.petrozavodsk_head {
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 48vw;
+    margin-top: 1rem;
+}
+
+.flag_text,
+.emblem_text,
+.petrozavodsk_text {
+    width: 48vw;
+    margin-top: 0.5rem;
+}
+
+
+
+.flag_image,
+.petrozavodsk_image {
+    justify-content: end;
+    width: 48vw;
+}
+
+.emblem_image {
+    justify-content: start;
+    width: 48vw;
+}
+
+.flag_image1,
+.petrozavodsk_image1 {
+    padding-right: 18vw;
+}
+
+
+.emblem_image1{
+    padding-left: 18vw;
+}
+
+
+.emblem_button,
+.petrozavodsk_button {
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flag_button {
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.flag_button img,
+.petrozavodsk_button img {
+    padding-left: 25vw;
+}
+
+
+.emblem_button img {
+    padding-left: 8vw;
+}
+
+
+.flag_information p,
+.petrozavodsk_information p {
+    margin-left: 18vw;
+}
+
+.emblem_information p {
+    padding-right: 18vw;
+}
+
+
+footer {
+    min-height: 16.5rem;
+    background-color: rgb(73, 75, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formal {
+    width: 63%;
+    height: 3.5rem;
+    text-align: center;
+}
+
+.formal>p {
+    color: white; 
+}
+
+
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 1.5vw;
+        font-family: Montserrat;
+    }
+
+    .main {
+        min-height:125vh;
+    }
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .flag,
+    .emblem,
+    .petrozavodsk {
+        min-height: 25vh;
+        align-items: center;
+    }
+
+    .flag_image,
+    .emblem_image,
+    .petrozavodsk_image {
+        height: 100%;
+    }
+
+    .flag_image1,
+    .emblem_image1,
+    .petrozavodsk_image1,
+    .flag_image img,
+    .emblem_image img,
+    .petrozavodsk_image img {
+        height: 100%;
+    }
+
+    .flag_image1,
+    .petrozavodsk_image1 {
+        padding-right: 16vw;
+    }
+
+
+    .emblem_image1{
+        padding-left: 16vw;
+    }
+
+    .flag_information p,
+    .petrozavodsk_information p {
+        margin-left: 16vw;
+    }
+
+    .emblem_information p {
+        padding-right: 16vw;
+    }
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+
+} 
+
+
+@media (max-width: 500px) {
+    html {
+        font-size: 2.5vw;
+        font-family: Montserrat;
+    }
+    
+    .main {
+        min-height: 125vh;
+    }
+
+    .main div {
+        max-width: 100vw;
+    }
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .logo {
+        margin-right: 2rem;
+    }
+
+
+    .name {
+        font-size: 2rem;
+        margin-inline: 6rem;
+    }
+
+    .flag,
+    .petrozavodsk {
+        height: 45vh;
+        flex-flow: column;
+    }
+
+    .emblem {
+        height: 45vh;
+        flex-flow: column-reverse;
+    }
+
+    .flag_head,
+    .emblem_head,
+    .petrozavodsk_head {
+        padding-top: 1.5vw;
+    }
+
+    .flag_main,
+    .emblem_main,
+    .petrozavodsk_main,
+    .flag_image,
+    .emblem_image,
+    .petrozavodsk_image {
+        height: 20vh;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+
+    .flag_information,
+    .emblem_information,
+    .petrozavodsk_information,
+    .flag_head,
+    .emblem_head,
+    .petrozavodsk_head,
+    .flag_text,
+    .emblem_text,
+    .petrozavodsk_text {
+        width: 80vw;
+    }
+
+    .flag_information,
+    .emblem_information,
+    .petrozavodsk_information {
+        max-height: 100%;
+    }
+
+    .flag_information p,
+    .petrozavodsk_information p {
+        margin-left: 0;
+    }
+    
+    .emblem_information p {
+        padding-right: 0;
+    }
+
+    .flag_image1,
+    .emblem_image1,
+    .petrozavodsk_image1,
+    .flag_image img,
+    .emblem_image img,
+    .petrozavodsk_image img {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .flag_button img,
+    .emblem_button img,
+    .petrozavodsk_button img {
+        padding-left: 0;
+    }
+
+    .flag_button,
+    .emblem_button,
+    .petrozavodsk_button {
+        margin-top: 1rem;
+    }
+
+    .flag_information div,
+    .emblem_information div,
+    .petrozavodsk_information div {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+    .formal {
+        height: auto;
+    }
+}

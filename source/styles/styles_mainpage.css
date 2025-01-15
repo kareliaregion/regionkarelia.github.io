@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2vh;
+    font-family: Montserrat;
+}
+
+.main {
+    min-height: 82.5rem;
+    display: block;
+}
+
+header {
+    background-color: rgb(255, 234, 233);
+    min-height: 16.5rem;
+}
+
+.up_header {
+    display: flex;
+    justify-content: end;
+}
+
+.home_button {
+    height: 4rem;
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 2rem;
+}
+
+.home_button img {
+    height: 100%;
+}
+
+.logo {
+    width: 27rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12.5vw;
+    margin-top: 1rem;
+}
+
+.logo>div {
+    display: flex;
+    height: 100%;
+}
+
+.gerb {
+    width: 13%;
+    height: auto;
+}
+
+
+.fond {
+    width: 57%;
+    height: auto;
+}
+
+.petrsu {
+    width: 19%;
+    height: auto;
+}
+
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.down_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5vh;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-inline: 14vw;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.film {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(225, 224, 240);
+}
+
+
+.lesson {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(236, 252, 237);
+}
+
+.poster {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(255, 234, 233);
+}
+
+.quiz {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(225, 224, 240);
+}
+
+
+
+.film div,
+.lesson div,
+.poster div,
+.quiz div {
+    display: flex;
+}
+
+.film img,
+.lesson img,
+.poster img,
+.quiz img {
+    height: 100%;
+}
+
+.film,
+.lesson,
+.poster,
+.quiz {
+    justify-content: space-between;;
+}
+
+.film_main,
+.lesson_main,
+.poster_main,
+.quiz_main {
+    height: 16.5rem;
+    width: 48vw;
+    align-items: center;
+}
+
+.film_information,
+.lesson_information,
+.poster_information,
+.quiz_information {
+    flex-flow: column;
+    width: 48vw;
+}
+
+.film_head,
+.lesson_head,
+.poster_head,
+.quiz_head {
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 48vw;
+    margin-top: 1rem;
+}
+
+.film_text,
+.lesson_text,
+.poster_text,
+.quiz_text {
+    width: 48vw;
+    margin-top: 0.5rem;
+}
+
+
+
+.film_image,
+.lesson_image,
+.poster_image,
+.quiz_image {
+    justify-content: end;
+    width: 48vw;
+}
+
+
+.film_image img,
+.lesson_image img,
+.poster_image img,
+.quiz_image img{
+    padding-right: 9.5vw;
+}
+
+
+.lesson_button,
+.quiz_button,
+.poster_button {
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.film_button {
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.film_button img,
+.poster_button img {
+    padding-left: 16.5vw;
+}
+
+
+.lesson_button img {
+    padding-left: 12vw;
+}
+
+.quiz_button img {
+    padding-left: 10vw;
+}
+
+.film_information p,
+.poster_information p {
+    margin-left: 9vw;
+}
+
+.lesson_information p,
+.quiz_information p{
+    padding-right: 9vw;
+}
+
+
+footer {
+    min-height: 16.5rem;
+    background-color: rgb(73, 75, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formal {
+    width: 63%;
+    height: 3.5rem;
+    text-align: center;
+}
+
+.formal>p {
+    color: white; 
+}
+
+
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 1.5vw;
+        font-family: Montserrat;
+    }
+
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .film,
+    .lesson,
+    .poster,
+    .quiz {
+        min-height: 25vh;
+        align-items: center;
+    }
+
+    .film_image,
+    .lesson_image,
+    .poster_image,
+    .quiz_image {
+        height: 16vh;
+    }
+
+    .film_image img,
+    .lesson_image img,
+    .poster_image img,
+    .quiz_image img{
+        padding-right: 5vw;
+    }
+
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+
+} 
+
+
+
+@media (max-width: 500px) {
+    html {
+        font-size: 2.5vw;
+        font-family: Montserrat;
+    }
+    
+    .main {
+        min-height: 125vh;
+    }
+
+    .main div {
+        max-width: 100vw;
+    }
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .logo {
+        margin-right: 2rem;
+    }
+
+
+    .name {
+        font-size: 2rem;
+        margin-inline: 6rem;
+    }
+
+    .film,
+    .poster {
+        height: auto;
+        flex-flow: column;
+    }
+
+    .lesson,
+    .quiz {
+        height: auto;
+        flex-flow: column-reverse;
+    }
+
+    .film_main,
+    .lesson_main,
+    .poster_main,
+    .quiz_main {
+        height: auto;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+    .film_image,
+    .lesson_image,
+    .poster_image,
+    .quiz_image {
+        min-height: 20vh;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+    .film_information,
+    .lesson_information,
+    .poster_information,
+    .quiz_information {
+        width: 80vw;
+        height: auto;
+    }
+
+    .film_head,
+    .lesson_head,
+    .poster_head,
+    .quiz_head,
+    .film_text,
+    .lesson_text,
+    .poster_text,
+    .quiz_text {
+        width: 80vw;
+    }
+
+    .film_information {
+        padding-top: 2vh;
+    }
+
+    .film_head {
+        margin-top: 0;
+        padding-top: 1vh;
+    }
+
+    .film_information p,
+    .poster_information p {
+        margin-left: 0;
+    }
+    
+    .lesson_information p,
+    .quiz_information p{
+        padding-right: 0;
+    }
+
+    .lesson_button,
+    .poster_button,
+    .quiz_button {
+        margin-bottom: 1.5rem;
+    }
+
+    .film_image img,
+    .lesson_image img,
+    .poster_image img,
+    .quiz_image img{
+        padding-right: 0;
+    }
+
+    .film_button img,
+    .lesson_button img,
+    .poster_button img,
+    .quiz_button img {
+        padding-left: 0;
+    }
+
+    .film_information div,
+    .lesson_information div,
+    .poster_information div,
+    .quiz_information div {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+    .formal {
+        height: auto;
+    }
+}

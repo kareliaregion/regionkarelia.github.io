@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2vh;
+    font-family: Montserrat;
+}
+
+.main {
+    min-height: 82.5rem;
+    display: block;
+}
+
+header {
+    background-color: rgb(255, 234, 233);
+    min-height: 16.5rem;
+}
+
+.up_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_button {
+    height: 4rem;
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 2rem;
+}
+
+.home_button img {
+    height: 100%;
+}
+
+.logo {
+    width: 27rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12.5vw;
+    margin-top: 1rem;
+}
+
+.logo>div {
+    display: flex;
+    height: 100%;
+}
+
+.gerb {
+    width: 13%;
+    height: auto;
+}
+
+
+.fond {
+    width: 57%;
+    height: auto;
+}
+
+.petrsu {
+    width: 19%;
+    height: auto;
+}
+
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.down_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5vh;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-inline: 14vw;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.symbols {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(225, 224, 240);
+}
+
+
+.zs {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(236, 252, 237);
+}
+
+.goverment {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(255, 234, 233);
+}
+
+.court {
+    display: flex;
+    height: 16.5rem;
+    background-color: rgb(225, 224, 240);
+}
+
+
+.symbols div,
+.zs div,
+.goverment div,
+.court div {
+    display: flex;
+}
+
+.symbols img,
+.zs img,
+.goverment img,
+.court img {
+    height: 100%;
+}
+
+.symbols,
+.zs,
+.goverment,
+.court {
+    justify-content: space-between;
+}
+
+.symbols_main,
+.zs_main,
+.goverment_main,
+.court_main {
+    height: 16.5rem;
+    width: 48vw;
+    align-items: center;
+}
+
+.symbols_information,
+.zs_information,
+.goverment_information,
+.court_information {
+    flex-flow: column;
+    width: 48vw;
+}
+
+.symbols_head,
+.zs_head,
+.goverment_head,
+.court_head {
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 48vw;
+    margin-top: 1rem;
+}
+
+.symbols_text,
+.zs_text,
+.goverment_text,
+.court_text {
+    width: 48vw;
+    margin-top: 0.5rem;
+}
+
+
+
+.symbols_image,
+.goverment_image {
+    justify-content: end;
+    width: 48vw;
+}
+
+.zs_image,
+.court_image {
+    justify-content: start;
+    width: 48vw;
+}
+
+
+.symbols_image img,
+.goverment_image img {
+    padding-right: 18vw;
+}
+
+.zs_image img,
+.court_image img {
+    padding-left: 18vw;
+}
+
+
+.zs_button,
+.goverment_button,
+.court_button {
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.symbols_button {
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.symbols_button img,
+.goverment_button img {
+    padding-left: 25vw;
+}
+
+
+.zs_button img,
+.court_button img {
+    padding-left: 8vw;
+}
+
+
+.symbols_information p,
+.goverment_information p {
+    margin-left: 18vw;
+}
+
+.zs_information p,
+.court_information p {
+    padding-right: 18vw;
+}
+
+
+footer {
+    min-height: 16.5rem;
+    background-color: rgb(73, 75, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formal {
+    width: 63%;
+    height: 3.5rem;
+    text-align: center;
+}
+
+.formal>p {
+    color: white; 
+}
+
+
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 1.5vw;
+        font-family: Montserrat;
+    }
+
+    .main {
+        min-height:150vh;
+    }
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .symbols,
+    .zs,
+    .goverment,
+    .court {
+        min-height: 25vh;
+        align-items: center;
+    }
+
+    .symbols_image,
+    .zs_image,
+    .goverment_image,
+    .court_image {
+        height: 100%;
+    }
+
+
+    .symbols_image img,
+    .zs_image img,
+    .goverment_image img,
+    .court_image img {
+        height: 100%;
+    }
+
+    .symbols_image img,
+    .goverment_image img {
+        padding-right: 16vw;
+    }
+
+    .zs_image img,
+    .court_image img {
+        padding-left: 16vw;
+    }
+
+    .symbols_information p,
+    .goverment_information p {
+        margin-left: 16vw;
+    }
+
+    .zs_information p,
+    .court_information p {
+        padding-right: 16vw;
+    }
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+
+} 
+
+
+@media (max-width: 500px) {
+    html {
+        font-size: 2.5vw;
+        font-family: Montserrat;
+    }
+    
+    .main {
+        min-height: 150vh;
+    }
+
+    .main div {
+        max-width: 100vw;
+    }
+
+    header,
+    footer {
+        min-height: 25vh;
+    }
+
+    .logo {
+        margin-right: 2rem;
+    }
+
+
+    .name {
+        font-size: 2rem;
+        margin-inline: 6rem;
+    }
+
+    .symbols,
+    .goverment {
+        height: auto;
+        flex-flow: column;
+    }
+
+    .zs,
+    .court {
+        height: auto;
+        flex-flow: column-reverse;
+    }
+
+    .symbols_head,
+    .zs_head,
+    .goverment_head,
+    .court_head {
+        padding-top: 1.5vw;
+    }
+
+    .symbols_main,
+    .zs_main,
+    .goverment_main,
+    .court_main {
+        height: auto;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+    .symbols_image,
+    .zs_image,
+    .goverment_image,
+    .court_image {
+        height: 20vh;
+        max-width: 100vw;
+        justify-content: center;
+    }
+
+
+    .symbols_information,
+    .zs_information,
+    .goverment_information,
+    .court_information,
+    .symbols_head,
+    .zs_head,
+    .goverment_head,
+    .court_head,
+    .symbols_text,
+    .zs_text,
+    .goverment_text,
+    .court_text {
+        width: 80vw;
+    }
+
+    .symbols_information,
+    .zs_information,
+    .goverment_information,
+    .court_information {
+        max-height: 100%;
+    }
+
+    .symbols_information p,
+    .goverment_information p {
+        margin-left: 0;
+    }
+    
+    .zs_information p,
+    .court_information p {
+        padding-right: 0;
+    }
+
+    .symbols_image img,
+    .zs_image img,
+    .goverment_image img,
+    .court_image img {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .zs_button,
+    .goverment_button,
+    .court_button {
+        margin-bottom: 1.5rem;
+    }
+
+    .symbols_button img,
+    .zs_button img,
+    .goverment_button img,
+    .court_button img {
+        padding-left: 0;
+    }
+
+    .symbols_button,
+    .zs_button,
+    .goverment_button,
+    .court_button {
+        margin-top: 1rem;
+    }
+
+    .symbols_information div,
+    .zs_information div,
+    .goverment_information div,
+    .court_information div {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .name,
+    .formal {
+        padding-bottom: 1.5vh;
+    }
+
+    .formal {
+        height: auto;
+    }
+}
